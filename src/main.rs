@@ -1,3 +1,10 @@
+// use crate
+use crate::garden::vegetables::Asparagus;
+
+// declare module
+pub mod garden;
+
 fn main() {
-    println!("Hello, world!");
+    let plant = Asparagus {};
+    println!("I'm growing {:?}", plant);
 }
